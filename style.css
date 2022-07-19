@@ -209,8 +209,12 @@ font-weight: normal;
 /* NOTE: ------------------------------------------------------ */
 
 .employers{
-  background-color: white;
+    background-color: white;
   padding: 1rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .slick-slide{

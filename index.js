@@ -34,6 +34,10 @@ $(document).ready(function()
 //   });
 // });
 
+
+
+//changing background color of CREATE JOB ALERT button
+
 function changeTo(x) {
   x.style.backgroundColor="black";
   x.style.color="white";

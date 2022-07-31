@@ -20,3 +20,15 @@ $(document).ready(function()
     }]
   })
 })
+
+$(document).ready(function(){
+  document.querySelector(".createJob").hover(function(){
+    $(".createJob").css("background-color", "black");
+    $(".createJob").css("color","white");
+
+    }, function(){
+    $(".createJob").css("background-color", "white");
+    $(".createJob").css("color","#5d4da8");
+
+  });
+});
